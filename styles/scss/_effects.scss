@@ -9,6 +9,11 @@ nav a:active{
     color: white;
 }
 
+.hamburger-menu a:hover{
+    transform: scale(1.25);
+    border-bottom: $accent-medium-blue 3px solid;
+}
+
 main button:hover{
     background: $hover-button-pink;
     border-radius: 3px;
@@ -38,4 +43,16 @@ form input:focus{
             transform: scale(1.2);
         }
     }
+}
+
+// Hamburger menu
+
+
+#toggle:checked ~ .hamburger-menu{
+    display: block;
+    transform: none;
+}
+
+.hamburger-menu a:active ~ .hamburger-menu{
+    display: none;
 }

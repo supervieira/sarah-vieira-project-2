@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Cabin|Oswald:700&display=swap" rel="stylesheet">
 
+    <!-- Importing icons from Font Awesome -->
     <script src="https://kit.fontawesome.com/15d7c2f7c4.js" crossorigin="anonymous"></script>
 
 </head>
@@ -42,12 +43,29 @@
             <h2>blog</h2>
         </div>
 
-        <button>
+        <!-- Hamburger menu -->
+        <div class="hamburger">
             <label for="toggle">
                 <i aria-hidden="true" class="fa fa-bars" title="Menu"></i>
             </label>
             <input class="checkbox" type="checkbox" id="toggle">
-        </button>
+        
+            <ul class="hamburger-menu">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./index.html#about">about</a></li>
+                <li>
+                    <span class="harper-nav">
+                        <a href="./index.html#harper">harper</a>
+                    </span>
+                </li>
+                <li>
+                    <span class="white-nav">
+                        <a href="./blog.html">blog</a>
+                    </span>
+                </li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </div>
     </header>
     <!-- End of header -->
 

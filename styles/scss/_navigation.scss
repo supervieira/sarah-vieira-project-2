@@ -20,6 +20,28 @@ nav{
         }
 }
 
+.hamburger-menu{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    background: rgba(255,255,255,0.75);
+
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 32px;
+    line-height: 2.25;
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    // Transformation inspiration from this codepen: https://codepen.io/erikterwan/pen/EVzeRP
+        a{
+            transition: all .5s ease-in-out;
+        }
+}
+
+
 @media(max-width: 1200px){
     nav ul{
         width: 70%;
@@ -31,9 +53,8 @@ nav{
         visibility: hidden;
     }
 
-    // Add hamburger menu
-
-    header button{
+    header label{
         display: block;
+        cursor: pointer;
     }
 }
