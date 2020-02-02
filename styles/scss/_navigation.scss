@@ -1,0 +1,39 @@
+nav{
+    background: $primary-blue;
+    padding: 15px 0;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 40%;
+            margin: 0 auto;
+            font-size: 18px;
+                li{
+                    transition: all .4s ease-in-out;
+                }
+                .harper-nav{
+                    font-size: 40px;
+                }
+                .white-nav a{
+                    color: white;
+                }
+        }
+}
+
+@media(max-width: 1200px){
+    nav ul{
+        width: 70%;
+    }
+}
+
+@media(max-width:675px){
+    nav{
+        visibility: hidden;
+    }
+
+    // Add hamburger menu
+
+    header button{
+        display: block;
+    }
+}

@@ -1,0 +1,41 @@
+// General
+
+nav li:hover{
+    transform: scale(1.25);
+    border-bottom: white 1px solid;
+}
+
+nav a:active{
+    color: white;
+}
+
+main button:hover{
+    background: $hover-button-pink;
+    border-radius: 3px;
+}
+
+main button:active{
+    background: $accent-pink;
+}
+
+form input:focus{
+    outline: 2px solid $focus-grey;
+}
+
+// Home page
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
+// Blog page
+
+// Contact page
+
+.contact-main aside{
+    .icons{
+        i:hover{
+            transform: scale(1.2);
+        }
+    }
+}

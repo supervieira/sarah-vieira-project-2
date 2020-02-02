@@ -1,0 +1,45 @@
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        input{
+            border: none;
+            padding: 25px;
+                ::placeholder{
+                    font-family: $secondary-font;
+                    font-size: 18px;
+                }
+        }
+}
+
+
+.form-name,
+input[type=email]{
+    width: 49%;        
+    margin-bottom: 3%;
+}
+
+.form-message{
+    padding-bottom: 250px;
+}
+
+.form-message,
+form button{
+    width: 100%;
+}
+
+
+// Media queries
+
+@media(max-width:450px){
+    form{
+        input{
+            width: 100%;
+        }
+    }
+
+    #first-name,
+    #email{
+        width: 100%;
+    }
+}
