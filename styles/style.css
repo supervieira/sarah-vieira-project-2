@@ -193,6 +193,11 @@ html {
   color: #171717;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 img {
   height: auto;
   width: 100%;
@@ -305,7 +310,8 @@ nav ul .white-nav a {
   top: 0%;
   right: 0%;
   width: 100%;
-  background: rgba(255, 255, 255, 0.75);
+  padding: 2vmax;
+  background: rgba(255, 255, 255, 0.9);
   text-align: center;
   letter-spacing: 5px;
   font-size: 32px;
