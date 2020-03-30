@@ -15,16 +15,16 @@ nav a:active{
 }
 
 main button:hover{
-    background: $hover-button-pink;
+    background: $hover-button;
     border-radius: 3px;
 }
 
 main button:active{
-    background: $accent-pink;
+    background: $accent-button;
 }
 
 form input:focus{
-    outline: 2px solid $focus-grey;
+    outline: 2px solid $focus;
 }
 
 // Home page
